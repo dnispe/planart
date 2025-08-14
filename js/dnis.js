@@ -11,3 +11,7 @@ document.addEventListener("DOMContentLoaded", function() {
         })
         .catch(err => console.error("Erro ao carregar o vídeo:", err));
 });
+
+fetch('../componentes/quemsomos.html')
+    .then(r => r.text())
+    .then(html => document.getElementById('quemsomos').innerHTML = html);
