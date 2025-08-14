@@ -91,7 +91,7 @@
     background: linear-gradient(
             180deg,
             rgba(0, 0, 0, 0.0) 0%,   /* início mais claro/translúcido */
-            rgba(0, 0, 0, 1) 100%
+            rgba(0, 0, 0, 0.9) 100%
     );
     padding: 100px 20px;
 }
@@ -111,6 +111,11 @@
     .conteudo-transicao{
         padding: 5px;
         box-sizing: revert;
+        background: linear-gradient(
+                180deg,
+                rgba(0, 0, 0, 0.0) 0%,   /* início mais claro/translúcido */
+                rgba(0, 0, 0, 1) 100%
+        );
     }
     .conteudo{
         padding: 1% 1%;
