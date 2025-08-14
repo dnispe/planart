@@ -79,9 +79,20 @@
     text-shadow: 0 2px 5px rgba(0,0,0,0.7);
 }
 
+.conteudo-transicao {
+    background: linear-gradient(
+            180deg,
+            rgba(0, 0, 0, 0.0) 0%,   /* início mais claro/translúcido */
+            rgba(0, 0, 0, 0.9) 70%,        /* transição para preto translúcido */
+            rgba(0, 0, 0, 0.9) 70%,        /* transição para preto translúcido */
+            rgba(0, 0, 0, 1) 100%          /* final preto sólido */
+    );
+    padding: 100px 20px;
+}
+
 /* Conteúdo normal com fundo */
 .conteudo {
-    background: #111; /* ou outra cor sólida */
+    background: rgba(0, 0, 0, 1) 100%; /* ou outra cor sólida */
     color: white;
     padding: 80px 20px;
 }
