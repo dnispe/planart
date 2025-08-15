@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function() {
             new Typed('#typed-text', {
                 strings: [
                     "EVENTOS DE SUCESSO COMEÇAM COM A <STRONG>PLANART</STRONG>.",
-                    "SOM E ILUMINAÇÃO DE ALTO PADRÃO",
+                    "PALCO, SOM E ILUMINAÇÃO DE ALTO PADRÃO",
                     "EXPERIÊNCIA QUE TRANSFORMA MOMENTOS EM MEMÓRIAS"
                 ],
                 typeSpeed: 100,
